@@ -2,7 +2,7 @@
 // Sonraki görevlerde veri.json filtreleme ve Gemini API entegrasyonu eklenecek.
 
 // Görev 4: Gemini API anahtarı (daha sonra kendi anahtarınla güncelleyeceksin)
-const API_KEY = "AIzaSyAJLz21ZJTzy2XVOD5oEXHj1nbRTQdpl5g";
+const API_KEY = "";
 
 const els = {
   landingPage: document.getElementById("landingPage"),
