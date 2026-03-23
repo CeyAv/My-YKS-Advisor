@@ -610,10 +610,14 @@ async function startChat(profile) {
 if (els.landingStartBtn) {
   els.landingStartBtn.addEventListener("click", () => {
     els.landingPage.classList.remove("is-active");
-    els.landingPage.classList.add("hidden");
-    els.dataEntryPage.classList.add("is-active");
-    els.dataEntryPage.classList.remove("hidden");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => {
+      els.landingPage.classList.add("hidden");
+      els.dataEntryPage.classList.remove("hidden");
+      setTimeout(() => {
+        els.dataEntryPage.classList.add("is-active");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 50);
+    }, 400);
   });
 }
 
@@ -639,11 +643,14 @@ els.profileForm.addEventListener("submit", (e) => {
   }
 
   els.dataEntryPage.classList.remove("is-active");
-  els.dataEntryPage.classList.add("hidden");
-  els.resultsPage.classList.remove("hidden");
-  els.resultsPage.classList.add("is-active");
-
-  startChat(profile);
+  setTimeout(() => {
+    els.dataEntryPage.classList.add("hidden");
+    els.resultsPage.classList.remove("hidden");
+    setTimeout(() => {
+      els.resultsPage.classList.add("is-active");
+      startChat(profile);
+    }, 50);
+  }, 400);
 });
 
 els.chatForm.addEventListener("submit", async (e) => {
@@ -698,14 +705,17 @@ if (els.nextMatchesBtn) {
 
 if (els.backToFormBtn) {
   els.backToFormBtn.addEventListener("click", () => {
-    // Step 3 -> Step 2 geçişi
     els.resultsPage.classList.remove("is-active");
-    els.resultsPage.classList.add("hidden");
-    els.dataEntryPage.classList.remove("hidden");
-    els.dataEntryPage.classList.add("is-active");
-    els.scrollToCardsBtn.classList.add("is-hidden");
-    setStatus("Formu düzenleyin ve yeniden başlatın", "ok");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => {
+      els.resultsPage.classList.add("hidden");
+      els.dataEntryPage.classList.remove("hidden");
+      setTimeout(() => {
+        els.dataEntryPage.classList.add("is-active");
+        els.scrollToCardsBtn.classList.add("is-hidden");
+        setStatus("Formu düzenleyin ve yeniden başlatın", "ok");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 50);
+    }, 400);
   });
 }
 
