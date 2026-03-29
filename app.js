@@ -2,7 +2,7 @@
 // Sonraki görevlerde veri.json filtreleme ve Gemini API entegrasyonu eklenecek.
 
 // Görev 4: Gemini API anahtarı (daha sonra kendi anahtarınla güncelleyeceksin)
-const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
+const API_KEY = window.GEMINI_API_KEY || "GIZLI_ANAHTAR";
 const API_COOLDOWN_MS = 60 * 1000;
 const API_BUSY_MESSAGE = "Su an sistemde yogunluk var, lutfen 1 dakika bekleyip tekrar deneyin.";
 
