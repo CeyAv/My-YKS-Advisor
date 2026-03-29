@@ -26,9 +26,8 @@ const els = {
   resultsCardsContainer: document.getElementById("resultsCardsContainer"),
   statusPill: document.getElementById("statusPill"),
   nextMatchesBtn: document.getElementById("nextMatchesBtn"),
-
-  menuToggle: document.getElementById("menuToggle"),
-  dropdownMenu: document.getElementById("dropdownMenu"),
+  // menuToggle: document.getElementById("menuToggle"),
+  // dropdownMenu: document.getElementById("dropdownMenu"),,
 };
 
 const state = {
