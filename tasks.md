@@ -30,7 +30,7 @@
 ## Faz 6: Güvenlik ve Canlıya Alma (Deployment)
 - [x] Gemini API anahtarını kodun içinden çıkar ve güvenli bir şekilde `Environment Variables` (.env) arkasına gizle.
 - [x] Kodları GitHub deposuna (Repository) pushla.
-- [x] Projeyi GitHub entegrasyonu ile (Örn: Lovable.dev / Vercel vb.) canlı bir sunucuya (Deployment) al.
+- [x] Projeyi GitHub entegrasyonu ile (Örn: Netlify.dev / Loveable vb.) canlı bir sunucuya (Deployment) al.
 
 ## Faz 7: Dokümantasyon ve Teslimat
 - [x] `README.md` dosyasını proje detayları ve Mermaid.js mimari şeması ile doldur.

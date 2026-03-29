@@ -12,7 +12,7 @@ Bu belge, YKS'ye hazırlanan öğrencilere kişiselleştirilmiş üniversite ve 
 ## 3. Temel Özellikler (MVP)
 * **İlk Panel (Form):** Sayısal girdiler (OBP, Netler), metin girdileri (Hobiler, Ruh Hali), açılır menü (9. Sınıf/ 10. Sınıf/ 11. Sınıf/ 12. Sınıf/ Mezun).
 * **Sol Panel (Chat UI):** WhatsApp tarzı, mesajların yukarı kaydığı sohbet ekranı. Modern, ferah, açık tema (light mode).
-* **Sol Panel / Eşleşme Kartları:** Önerilerin düz metin yerine şık UI kartları şeklinde gösterimi.
+* **Sağ Panel / Eşleşme Kartları:** Önerilerin düz metin yerine şık UI kartları şeklinde gösterimi.
 
 ## 4. Teknik Altyapı
 * **Frontend:** HTML, CSS, JavaScript (Modern ve duyarlı tasarım).

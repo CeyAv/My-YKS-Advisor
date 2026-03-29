@@ -15,9 +15,9 @@ Projenin hem geliştirme hem de çalışma aşamasında alanının en iyi yapay 
 ## 🛠️ Geliştirme ve Dağıtım Ortamı
 - **Geliştirme:** Cursor / VS Code (Yapay zeka destekli kodlama imkanı sunduğu için).
 - **Versiyon Kontrolü:** Git & GitHub (Kodun güvenli bir şekilde saklanması ve sürekli entegrasyona hazır olması için).
-- **Hosting / Dağıtım (Deployment):** Lovable.dev (GitHub ile doğrudan entegre çalışarak kod değişikliklerini anında CI/CD pipeline'ı ile canlıya alabildiği için tercih edilmiştir).
+- **Hosting / Dağıtım (Deployment):** Netlify.dev (GitHub ile doğrudan entegre çalışarak kod değişikliklerini anında CI/CD pipeline'ı ile canlıya alabildiği için tercih edilmiştir).
 
-**Güvenlik Notu:** Uygulamada kullanılan Gemini API anahtarı, güvenlik standartları gereği kaynak kodun içinde (`.js` dosyasında) açıkça bırakılmadı; `Environment Variables` (Çevre Değişkenleri) kullanılarak sunucu tarafında (Lovable üzerinde) gizlenmiştir.
+**Güvenlik Notu:** Uygulamada kullanılan Gemini API anahtarı, güvenlik standartları gereği kaynak kodun içinde (`.js` dosyasında) açıkça bırakılmadı; `Environment Variables` (Çevre Değişkenleri) kullanılarak sunucu tarafında (Netlify üzerinde) gizlenmiştir.
 
 ## 📊 Veri Mühendisliği ve Çoklu-AI İşlem Hattı (Multi-AI Data Pipeline)
 Sistemi sadece bir API'ye bağlayıp bırakmak yerine, yanıt hızını ve kalitesini maksimize etmek için arka planda **3 farklı yapay zeka modelinin** bir arada çalıştığı bir veri hazırlık süreci (Data Pipeline) kurgulanmıştır:
