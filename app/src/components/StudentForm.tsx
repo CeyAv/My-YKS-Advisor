@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
-import { StudentProfile, PuanTuru, UniTuru, Seviye } from "@/types";
+import { StudentProfile, PuanTuru } from "@/types";
 
 interface FormProps {
   onSubmit: (profile: StudentProfile) => void;
