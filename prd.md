@@ -10,9 +10,9 @@ Bu belge, YKS'ye hazırlanan öğrencilere kişiselleştirilmiş üniversite ve 
 4. **Kariyer Kazanımları:** Her bölüm kartının altında, o bölümün potansiyel iş fırsatları ve kariyer olanakları madde madde listelenir.
 
 ## 3. Temel Özellikler (MVP)
-* **Sol Panel (Form):** Sayısal girdiler (OBP, Netler), metin girdileri (Hobiler, Ruh Hali), açılır menü (9. Sınıf/ 10. Sınıf/ 11. Sınıf/ 12. Sınıf/ Mezun).
-* **Sağ Panel (Chat UI):** WhatsApp tarzı, mesajların yukarı kaydığı sohbet ekranı. Modern, ferah, açık tema (light mode).
-* **Eşleşme Kartları:** Önerilerin düz metin yerine şık UI kartları şeklinde gösterimi.
+* **İlk Panel (Form):** Sayısal girdiler (OBP, Netler), metin girdileri (Hobiler, Ruh Hali), açılır menü (9. Sınıf/ 10. Sınıf/ 11. Sınıf/ 12. Sınıf/ Mezun).
+* **Sol Panel (Chat UI):** WhatsApp tarzı, mesajların yukarı kaydığı sohbet ekranı. Modern, ferah, açık tema (light mode).
+* **Sol Panel / Eşleşme Kartları:** Önerilerin düz metin yerine şık UI kartları şeklinde gösterimi.
 
 ## 4. Teknik Altyapı
 * **Frontend:** HTML, CSS, JavaScript (Modern ve duyarlı tasarım).
@@ -21,4 +21,4 @@ Bu belge, YKS'ye hazırlanan öğrencilere kişiselleştirilmiş üniversite ve 
 
 ## 5. Başarı Kriterleri ve Sınırlar
 * Yapay zeka asla "kesin kazanırsın" veya "kazanamazsın" gibi kesin yargılarda bulunmayacaktır.
-* Yapay zeka uydurma veri (halüsinasyon) üretmeyecek, sadece `veri.json` içinden JavaScript'in seçip ona gönderdiği 5 bölüm üzerinden yorum yapacaktır.
+* Yapay zeka uydurma veri (halüsinasyon) üretmeyecek, sadece "master_data.json" içinden JavaScript'in seçip ona gönderdiği 5 bölüm üzerinden yorum yapacaktır.
