@@ -1,0 +1,21 @@
+# Proje Görev Listesi (tasks.md)
+
+- [ ] **Görev 1: Temel İskelet ve Arayüz (UI) Geliştirimi**
+  - `index.html`, `style.css` ve `app.js` dosyalarını oluştur.
+  - Sayfayı iki panele böl (Sol: Form, Sağ: Chat).
+  - Light mode, modern ve genç bir tasarım uygula.
+- [ ] **Görev 2: Yerel JSON Veri Setinin Eklenmesi**
+  - İçinde 15 adet örnek üniversite/bölüm barındıran `veri.json` dosyasını oluştur.
+- [ ] **Görev 3: JavaScript Filtreleme Algoritması**
+  - Kullanıcının formdaki verilerini okuyacak bir fonksiyon yaz.
+  - Bu verilere göre `veri.json` içinden en mantıklı 5 sonucu filtreleyen yerel mantığı kur.
+- [ ] **Görev 4: Gemini API Entegrasyonu**
+  - JavaScript içine Google Gemini API bağlantısını kur.
+  - "20 yıllık empatik rehber öğretmen" sistem talimatını (System Prompt) ayarla.
+  - Filtrelenen 3 bölüm datasını prompt'un içine enjekte ederek API'ye gönder.
+- [ ] **Görev 5: Dinamik UI ve Eşleşme Kartları (Card Component)**
+  - API'den dönen yanıtı sağ paneldeki sohbet ekranında göster.
+  - API'nin önerdiği bölümleri yakalayarak bunları şık HTML Kartlarına dönüştür.
+- [ ] **Görev 6: Test ve Hata Ayıklama**
+  - Formun boş gönderilmesi veya hatalı veri girilmesi durumları için uyarılar ekle.
+  - Mobil uyumluluğu (Responsive Design) test et.
