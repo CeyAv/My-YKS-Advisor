@@ -35,13 +35,13 @@ Mantıksal Akış, Prompt Engineering: Claude 3.5 Sonnet & ChatGPT – Rehber ö
 
 Bilgi Yönetimi: NotebookLM – Üniversite tercih kılavuzları ve mevzuat bilgilerinin sentezlenerek projeye kaynaklık etmesi.
 
-Yayınlama ve Otomasyon: Bolt.new & Netlify – Projenin bulut altyapısına taşınması ve canlıya alınması.
+Yayınlama ve Otomasyon: Vercel AI – Projenin bulut altyapısına taşınması ve canlıya alınması.
 
 Demo Videosu: Demo videosunun AI destekli transkripti, akıllı bölümlere ayrılması ve sunumdaki dolgu kelimelerinin temizlenerek profesyonelleştirilmesi.
 
 ## Nasıl Çalıştırılır ve Kullanılır?
 
-Uygulama tamamen bulut üzerinde (Netlify) yayındadır ve herhangi bir kurulum gerektirmez.
+Uygulama tamamen bulut üzerinde (Vercel AI) yayındadır ve herhangi bir kurulum gerektirmez.
 
 Aşağıda verilen "yayın Linki" başlığına basılır ve YKS Advisor Canlı Sitesi adresine gidilir.
 
