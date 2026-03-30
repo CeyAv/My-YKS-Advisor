@@ -1,15 +1,15 @@
-# YKS-Advisor
+## YKS-Advisor
 Öğrencilerin YKS netlerini, hobilerini ve psikolojisini analiz ederek en uygun üniversite bölümlerini sunan yapay zeka destekli rehberlik asistanı.
 
-**Problem:**
+# Problem:
 
 Dünyada ve özellikle ülkemizde milyonlarca genç, hayatlarının en kritik döneminde (YKS), sadece akademik netlere ve puanlara indirgenmiş durumdalar. Bu "puan odaklı" sistem; öğrencinin tutkularını, hobilerini ve ruh halini tamamen görmezden gelmektedir. Sonuç: Yanlış seçilen bölümler, mutsuz üniversite yılları ve potansiyelini gerçekleştiremeyen kayıp bir nesil. Bu, bireysel bir sorundan ziyade toplumsal bir insan kaynağı israfıdır.
 
-**Çözüm (Yapay Zeka Destekli Somut Çözüm):**
+# Çözüm (Yapay Zeka Destekli Somut Çözüm):
 
 YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yeteneği olan bir yapay zeka asistanıdır. Öğrenciyi sadece bir "puan" olarak görmez; netlerini, karakterini, ilgi alanlarını ve anlık psikolojik durumunu bir bütün olarak analiz eder. 27.000'den fazla satırlık devasa bir üniversite veri setini Gemini 1.5 Pro'nun analiz gücüyle birleştirerek, öğrenciye sadece bir "tercih listesi" değil, bir "hayat vizyonu" sunar.
 
-**Projenin Somut ve Çalışan Özellikleri:**
+# Projenin Somut ve Çalışan Özellikleri:
 
 *Çok Boyutlu Analiz:* Netler + Hobiler + Psikolojik Durum + Şehir Tercihi eşleşmesi.
 
@@ -17,14 +17,29 @@ YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yete
 
 *Empatik Rehberlik:* 20 yıllık bir rehber öğretmen şefkatiyle hazırlanan kişiselleştirilmiş tavsiyeler ve kaygı danışmanlığı.
 
+# Canlı Demo: 
+*Feedback page:* https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2okzVZQf6WgDy_R1b9y65vsV2jA/viewform?usp=publish-editor
+
+*Yayın Linki:* https://yks-advisor-aibuildathon.netlify.app/
+
+*Demo Video:* 
+
+# Kullanılan Teknolojiler
+Çekirdek Zeka (Core AI): Gemini 1.5 Pro (Google AI Studio üzerinden optimize edildi) – Rehberlik mantığının ve empatik yanıtların üretilmesi.
+
+Kodlama ve IDE: VS Code AI & Cursor – Uygulamanın mimari yapısının kurulması ve "Vibe Coding" metodolojisiyle hızlı prototipleme.
+
+Veri Mühendisliği: Julius AI & Perplexity – 27.000 satırlık ham üniversite verisinin analizi, temizlenmesi ve anlamlı "keyword" setlerine dönüştürülmesi.
+
+Mantıksal Akış, Prompt Engineering: Claude 3.5 Sonnet & ChatGPT – Rehber öğretmen persona’sının kurgulanması ve karmaşık JavaScript fonksiyonlarının mantıksal denetimi.
+
+Bilgi Yönetimi: NotebookLM – Üniversite tercih kılavuzları ve mevzuat bilgilerinin sentezlenerek projeye kaynaklık etmesi.
+
+Yayınlama ve Otomasyon: Bolt.new & Netlify – Projenin bulut altyapısına taşınması ve canlıya alınması.
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
-
-**Feedback page:** https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2okzVZQf6WgDy_R1b9y65vsV2jA/viewform?usp=publish-editor
-
-**Web page:** https://yks-advisor-aibuildathon.netlify.app/
-
 
 *Teknik Not ve Performans Bildirimi:*
 
