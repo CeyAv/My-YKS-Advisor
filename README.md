@@ -20,7 +20,7 @@ YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yete
 ## Canlı Demo: 
 *Feedback page:* https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2okzVZQf6WgDy_R1b9y65vsV2jA/viewform?usp=publish-editor
 
-*Yayın Linki:* https://yks-advisor-aibuildathon.netlify.app/
+*Yayın Linki:* yks-advisor-aibuildathon-project.netlify.app
 
 *Demo Video:* 
 
