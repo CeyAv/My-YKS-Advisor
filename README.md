@@ -37,6 +37,8 @@ Bilgi Yönetimi: NotebookLM – Üniversite tercih kılavuzları ve mevzuat bilg
 
 Yayınlama ve Otomasyon: Bolt.new & Netlify – Projenin bulut altyapısına taşınması ve canlıya alınması.
 
+Demo Videosu: Demo videosunun AI destekli transkripti, akıllı bölümlere ayrılması ve sunumdaki dolgu kelimelerinin temizlenerek profesyonelleştirilmesi.
+
 ## Nasıl Çalıştırılır ve Kullanılır?
 
 Uygulama tamamen bulut üzerinde (Netlify) yayındadır ve herhangi bir kurulum gerektirmez.
