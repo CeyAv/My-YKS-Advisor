@@ -37,7 +37,8 @@ Bilgi Yönetimi: NotebookLM – Üniversite tercih kılavuzları ve mevzuat bilg
 
 Yayınlama ve Otomasyon: Bolt.new & Netlify – Projenin bulut altyapısına taşınması ve canlıya alınması.
 
-Nasıl Çalıştırılır ve Kullanılır?
+## Nasıl Çalıştırılır ve Kullanılır?
+
 Uygulama tamamen bulut üzerinde (Netlify) yayındadır ve herhangi bir kurulum gerektirmez.
 
 Aşağıda verilen "yayın Linki" başlığına basılır ve YKS Advisor Canlı Sitesi adresine gidilir.
