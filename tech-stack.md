@@ -15,7 +15,7 @@ Projenin hem geliştirme hem de çalışma aşamasında alanının en iyi yapay 
 ## 🛠️ Geliştirme ve Dağıtım Ortamı
 - **Geliştirme:** Cursor / VS Code (Yapay zeka destekli kodlama imkanı sunduğu için).
 - **Versiyon Kontrolü:** Git & GitHub (Kodun güvenli bir şekilde saklanması ve sürekli entegrasyona hazır olması için).
-- **Hosting / Dağıtım (Deployment):** Netlify.dev (GitHub ile doğrudan entegre çalışarak kod değişikliklerini anında CI/CD pipeline'ı ile canlıya alabildiği için tercih edilmiştir).
+- **Hosting / Dağıtım (Deployment):** Vercel AI (GitHub ile doğrudan entegre çalışarak kod değişikliklerini anında CI/CD pipeline'ı ile canlıya alabildiği için tercih edilmiştir).
 
 **Güvenlik Notu:** Uygulamada kullanılan Gemini API anahtarı, güvenlik standartları gereği kaynak kodun içinde (`.js` dosyasında) açıkça bırakılmadı; `Environment Variables` (Çevre Değişkenleri) kullanılarak sunucu tarafında (Netlify üzerinde) gizlenmiştir.
 
