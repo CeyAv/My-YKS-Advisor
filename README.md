@@ -5,4 +5,5 @@
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 
 Feedback page: https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2okzVZQf6WgDy_R1b9y65vsV2jA/viewform?usp=publish-editor
+
 Web page: my-yks-advisor-buildathon.netlify.app
