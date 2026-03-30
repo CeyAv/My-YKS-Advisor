@@ -1,19 +1,21 @@
 # YKS-Advisor
 Öğrencilerin YKS netlerini, hobilerini ve psikolojisini analiz ederek en uygun üniversite bölümlerini sunan yapay zeka destekli rehberlik asistanı.
 
-Problem:
+# Problem:
+
 Dünyada ve özellikle ülkemizde milyonlarca genç, hayatlarının en kritik döneminde (YKS), sadece akademik netlere ve puanlara indirgenmiş durumdalar. Bu "puan odaklı" sistem; öğrencinin tutkularını, hobilerini ve ruh halini tamamen görmezden gelmektedir. Sonuç: Yanlış seçilen bölümler, mutsuz üniversite yılları ve potansiyelini gerçekleştiremeyen kayıp bir nesil. Bu, bireysel bir sorundan ziyade toplumsal bir insan kaynağı israfıdır.
 
-Çözüm (Yapay Zeka Destekli Somut Çözüm):
+# Çözüm (Yapay Zeka Destekli Somut Çözüm):
+
 YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yeteneği olan bir yapay zeka asistanıdır. Öğrenciyi sadece bir "puan" olarak görmez; netlerini, karakterini, ilgi alanlarını ve anlık psikolojik durumunu bir bütün olarak analiz eder. 27.000'den fazla satırlık devasa bir üniversite veri setini Gemini 1.5 Pro'nun analiz gücüyle birleştirerek, öğrenciye sadece bir "tercih listesi" değil, bir "hayat vizyonu" sunar.
 
-Projenin Somut ve Çalışan Özellikleri:
+**Projenin Somut ve Çalışan Özellikleri:**
 
-Çok Boyutlu Analiz: Netler + Hobiler + Psikolojik Durum + Şehir Tercihi eşleşmesi.
+*Çok Boyutlu Analiz:* Netler + Hobiler + Psikolojik Durum + Şehir Tercihi eşleşmesi.
 
-Büyük Veri Gücü: 27.000+ gerçek üniversite verisi üzerinde anlık tarama.
+*Büyük Veri Gücü:* 27.000+ gerçek üniversite verisi üzerinde anlık tarama.
 
-Empatik Rehberlik: 20 yıllık bir rehber öğretmen şefkatiyle hazırlanan kişiselleştirilmiş tavsiyeler ve kaygı danışmanlığı.
+*Empatik Rehberlik:* 20 yıllık bir rehber öğretmen şefkatiyle hazırlanan kişiselleştirilmiş tavsiyeler ve kaygı danışmanlığı.
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
