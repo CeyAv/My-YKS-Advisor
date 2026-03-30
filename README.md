@@ -9,4 +9,5 @@ Feedback page: https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2o
 Web page: https://yks-advisor-aibuildathon.netlify.app/
 
 Teknik Not ve Performans Bildirimi:
+
 Projem, gerçek zamanlı olarak 27.000+ satırlık geniş bir veri setini analiz etmektedir. Gemini 1.5 Pro, bu verileri süzüp en empatik ve doğru rehberlik yanıtını oluştururken bazen sunucu tarafındaki 30 saniyelik zaman aşımı (timeout) limitlerine takılabilmektedir bu durum üniversite seç butonuna tekrar basılarak giderilebilmektedir ileride eklemeyi planladığım teknik optimizassyonlar ile bu süreyi milisaniyelere indirmek öncelikli hedefimdir.
