@@ -35,7 +35,7 @@ Mantıksal Akış, Prompt Engineering: Claude 3.5 Sonnet & ChatGPT – Rehber ö
 
 Bilgi Yönetimi: NotebookLM – Üniversite tercih kılavuzları ve mevzuat bilgilerinin sentezlenerek projeye kaynaklık etmesi.
 
-Yayınlama ve Otomasyon: Vercel AI – Projenin bulut altyapısına taşınması ve canlıya alınması.
+Yayınlama ve Otomasyon: Netlify AI – Projenin bulut altyapısına taşınması ve canlıya alınması.
 
 Demo Videosu: Demo videosunun AI destekli transkripti, akıllı bölümlere ayrılması ve sunumdaki dolgu kelimelerinin temizlenerek profesyonelleştirilmesi.
 
