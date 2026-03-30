@@ -13,7 +13,7 @@ YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yete
 
 *Çok Boyutlu Analiz:* Netler + Hobiler + Psikolojik Durum + Şehir Tercihi eşleşmesi.
 
-*Büyük Veri Gücü:* 27.000+ gerçek üniversite verisi üzerinde anlık tarama.
+*Büyük Veri Gücü:* 21.000+ gerçek üniversite verisi üzerinde anlık tarama.
 
 *Empatik Rehberlik:* 20 yıllık bir rehber öğretmen şefkatiyle hazırlanan kişiselleştirilmiş tavsiyeler ve kaygı danışmanlığı.
 
@@ -29,7 +29,7 @@ YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yete
 
 Kodlama ve IDE: VS Code AI & Cursor – Uygulamanın mimari yapısının kurulması ve "Vibe Coding" metodolojisiyle hızlı prototipleme.
 
-Veri Mühendisliği: Julius AI & Perplexity – 27.000 satırlık ham üniversite verisinin analizi, temizlenmesi ve anlamlı "keyword" setlerine dönüştürülmesi.
+Veri Mühendisliği: Julius AI & Perplexity – 21.000 satırlık ham üniversite verisinin analizi, temizlenmesi ve anlamlı "keyword" setlerine dönüştürülmesi.
 
 Mantıksal Akış, Prompt Engineering: Claude 3.5 Sonnet & ChatGPT – Rehber öğretmen persona’sının kurgulanması ve karmaşık JavaScript fonksiyonlarının mantıksal denetimi.
 
@@ -49,7 +49,7 @@ Ana sayfadaki "Hadi Başlayalım" butonuna tıklayarak veri giriş formuna ulaş
 
 Netlerinizi, hedeflerinizi, hobilerinizi ve en önemlisi ruh halinizi girerek "Bana Rehberlik Et" butonuna basın.
 
-Önemli Not: Sistem arka planda 27.000+ satırlık bir veri setini analiz ettiği için yanıt süresi 30 saniyeyi bulabilir. Eğer timeout hatası alırsanız butona tekrar basmanız yeterlidir.
+Önemli Not: Sistem arka planda 21.000+ satırlık bir veri setini analiz ettiği için yanıt süresi 30 saniyeyi bulabilir. Eğer timeout hatası alırsanız butona tekrar basmanız yeterlidir.
 
 Ardından, YKS Advisor her üniversite ve bölüm için sadece puan eşleştirmesi yapmaz; aşağıdaki 7 temel başlıkta derinlemesine analiz sunar:
 1. Kurumsal Tanıtım: Üniversitenin köklü yapısı, eğitim felsefesi ve vizyonu.
