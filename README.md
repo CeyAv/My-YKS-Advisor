@@ -29,7 +29,7 @@ YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yete
 
 Kodlama ve IDE: VS Code AI & Cursor – Uygulamanın mimari yapısının kurulması ve "Vibe Coding" metodolojisiyle hızlı prototipleme.
 
-Veri Mühendisliği: Julius AI & Perplexity & Claude – 21.000 satırlık ham üniversite verisinin analizi, temizlenmesi ve anlamlı "keyword" setlerine dönüştürülmesi.
+Veri Mühendisliği: Julius AI & Perplexity & Claude 3.5 Sonnet – 21.000 satırlık ham üniversite verisinin analizi, temizlenmesi ve anlamlı "keyword" setlerine dönüştürülmesi.
 
 Mantıksal Akış, Prompt Engineering: Claude 3.5 Sonnet & ChatGPT – Rehber öğretmen persona’sının kurgulanması ve karmaşık JavaScript fonksiyonlarının mantıksal denetimi.
 
