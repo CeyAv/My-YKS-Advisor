@@ -1,11 +1,11 @@
 # YKS-Advisor
 Öğrencilerin YKS netlerini, hobilerini ve psikolojisini analiz ederek en uygun üniversite bölümlerini sunan yapay zeka destekli rehberlik asistanı.
 
-# Problem:
+**Problem:**
 
 Dünyada ve özellikle ülkemizde milyonlarca genç, hayatlarının en kritik döneminde (YKS), sadece akademik netlere ve puanlara indirgenmiş durumdalar. Bu "puan odaklı" sistem; öğrencinin tutkularını, hobilerini ve ruh halini tamamen görmezden gelmektedir. Sonuç: Yanlış seçilen bölümler, mutsuz üniversite yılları ve potansiyelini gerçekleştiremeyen kayıp bir nesil. Bu, bireysel bir sorundan ziyade toplumsal bir insan kaynağı israfıdır.
 
-# Çözüm (Yapay Zeka Destekli Somut Çözüm):
+**Çözüm (Yapay Zeka Destekli Somut Çözüm):**
 
 YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yeteneği olan bir yapay zeka asistanıdır. Öğrenciyi sadece bir "puan" olarak görmez; netlerini, karakterini, ilgi alanlarını ve anlık psikolojik durumunu bir bütün olarak analiz eder. 27.000'den fazla satırlık devasa bir üniversite veri setini Gemini 1.5 Pro'nun analiz gücüyle birleştirerek, öğrenciye sadece bir "tercih listesi" değil, bir "hayat vizyonu" sunar.
 
@@ -21,9 +21,9 @@ YKS Advisor, bu kötücül döngüyü kırmak için geliştirilmiş, empati yete
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 
-Feedback page: https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2okzVZQf6WgDy_R1b9y65vsV2jA/viewform?usp=publish-editor
+**Feedback page:** https://docs.google.com/forms/d/e/1FAIpQLScNMn82R3MV-gkWv38Wfal2okzVZQf6WgDy_R1b9y65vsV2jA/viewform?usp=publish-editor
 
-Web page: https://yks-advisor-aibuildathon.netlify.app/
+**Web page:** https://yks-advisor-aibuildathon.netlify.app/
 
 Teknik Not ve Performans Bildirimi:
 
