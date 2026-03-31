@@ -6,7 +6,7 @@ Bu belge, YKS'ye hazırlanan öğrencilere kişiselleştirilmiş üniversite ve 
 ## 2. Kullanıcı Akışı
 1. **Veri Girişi:** Öğrenci açılan paneldeki forma OBP, TYT/AYT netleri, hobileri ve ruh halini girer.
 2. **Eşleşme Kartları:** Yapay zeka, sistemin bulduğu en uygun 5 bölümü "% Uyum Oranı" ile görsel "Card" bileşenleri olarak sunar.
-3. **Sohbet Başlangıcı:** "Açılan pencerede önerilen eşleşme kartlarını inceler ve bana Rehberlik Et" butonuna basar. Sağ panelde 20 yıllık deneyimli rehber öğretmen karakterine bürünmüş Gemini AI, öğrenciyle empatik bir sohbet başlatır.
+3. **Sohbet Başlangıcı:** "Açılan pencerede önerilen eşleşme kartlarını inceler ve bana Rehberlik Et" butonuna basar. Sol panelde 20 yıllık deneyimli rehber öğretmen karakterine bürünmüş Gemini AI, öğrenciyle empatik bir sohbet başlatır.
 4. **Kariyer Kazanımları:** Her bölüm kartının altında, o bölümün potansiyel iş fırsatları ve kariyer olanakları madde madde listelenir.
 
 ## 3. Temel Özellikler (MVP)
