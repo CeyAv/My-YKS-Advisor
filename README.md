@@ -1,14 +1,6 @@
-Bu harika bir içerik! Projenin tüm teknik derinliğini, veri gücünü ve empatik yaklaşımını çok iyi özetlemişsin. Bu metni GitHub'da (özellikle `README.md` veya ana tanıtım dosyası için) mükemmel görünecek şekilde, profesyonel bir hiyerarşi ve okunabilirliği artıran tablolarla düzenledim.
-
-Aşağıdaki metni kopyalayıp kullanabilirsin. Emojiler yerine standart Markdown ikonları ve güçlü başlıklar kullandım ki her cihazda sorunsuz görünsün.
-
----
-
-# [PROJECT] YKS Advisor: Gelecek Tasarımı
+# YKS Advisor: Gelecek Tasarımı
 
 **Öğrencilerin YKS netlerini, hobilerini ve psikolojisini analiz ederek en uygun üniversite bölümlerini sunan yapay zeka destekli rehberlik asistanı.**
-
----
 
 ## 🚩 Problem Tanımı
 Dünyada ve özellikle ülkemizde milyonlarca genç, hayatlarının en kritik dönemi olan YKS sürecinde sadece "net ve puan" sayılarına indirgenmiş durumdadır. Mevcut sistem; öğrencinin tutkularını, hobilerini ve ruh halini görmezden gelmektedir. 
