@@ -1,23 +1,56 @@
-# PRD: YKS Yapay Zeka Rehberlik Asistanı
+# 📄 Product Requirements Document (PRD)
+## 🎓 YKS Advisor: MVP Sürüm Tanımlama Belgesi
 
-## 1. Belgenin Amacı
-Bu belge, YKS'ye hazırlanan öğrencilere kişiselleştirilmiş üniversite ve bölüm tavsiyeleri veren, onlara psikolojik destek sağlayan yapay zeka destekli web uygulamasının MVP (Minimum Viable Product) sürümünü tanımlar.
+---
 
-## 2. Kullanıcı Akışı
-1. **Veri Girişi:** Öğrenci açılan paneldeki forma OBP, TYT/AYT netleri, hobileri ve ruh halini girer.
-2. **Eşleşme Kartları:** Yapay zeka, sistemin bulduğu en uygun 5 bölümü "% Uyum Oranı" ile görsel "Card" bileşenleri olarak sunar.
-3. **Sohbet Başlangıcı:** "Açılan pencerede önerilen eşleşme kartlarını inceler ve bana Rehberlik Et" butonuna basar. Sol panelde 20 yıllık deneyimli rehber öğretmen karakterine bürünmüş Gemini AI, öğrenciyle empatik bir sohbet başlatır.
-4. **Kariyer Kazanımları:** Her bölüm kartının altında, o bölümün potansiyel iş fırsatları ve kariyer olanakları madde madde listelenir.
+### [1] Belgenin Amacı
+Bu belge, YKS hazırlık sürecindeki öğrencilere; akademik veriler (OBP, Net), ilgi alanları (Hobiler) ve duygusal durum (Mood) ekseninde kişiselleştirilmiş rehberlik sunan **AI-Native** web uygulamasının **MVP (Minimum Viable Product)** kapsamını tanımlar.
 
-## 3. Temel Özellikler (MVP)
-* **İlk Panel (Form):** Sayısal girdiler (OBP, Netler), metin girdileri (Hobiler, Ruh Hali), açılır menü (9. Sınıf/ 10. Sınıf/ 11. Sınıf/ 12. Sınıf/ Mezun).
-* **Sol Panel (Chat UI):** WhatsApp tarzı, mesajların yukarı kaydığı sohbet ekranı. Modern, ferah, açık tema (light mode).
-* **Sağ Panel / Eşleşme Kartları:** Önerilerin düz metin yerine şık UI kartları şeklinde gösterimi.
+---
 
-## 4. Teknik Altyapı
-* **Frontend:** HTML, CSS, JavaScript (Modern ve duyarlı tasarım).
-* **Backend/AI:** Google Gemini API.
-* **Veritabanı (Hibrit Yaklaşım):** Halüsinasyonu ve aşırı API maliyetini önlemek için karmaşık veritabanı kullanılmayacaktır. Uygulama içinde 15 örnek bölüm barındıran geçici yerel bir `veri.json` dosyası tutulacaktır. Arama ve filtreleme JavaScript ile yerel olarak yapılacak, API sadece filtrelenmiş 5 sonucu yorumlamak ve kullanıcıyla konuşmak için kullanılacaktır. Daha sonrasında bu veri seti ana veri seti ile güncellenecektir.
-## 5. Başarı Kriterleri ve Sınırlar
-* Yapay zeka asla "kesin kazanırsın" veya "kazanamazsın" gibi kesin yargılarda bulunmayacaktır.
-* Yapay zeka uydurma veri (halüsinasyon) üretmeyecek, sadece "master_data.json" içinden JavaScript'in seçip ona gönderdiği 5 bölüm üzerinden yorum yapacaktır.
+### [2] Kullanıcı Deneyimi ve Akışı (User Experience)
+
+| Aşama | Aksiyon | Çıktı |
+| :--- | :--- | :--- |
+| **01. Veri Girişi** | Öğrenci; OBP, TYT/AYT netleri, hobileri ve ruh halini forma girer. | Ham verinin sisteme işlenmesi. |
+| **02. Akıllı Eşleşme** | Algoritma, en uygun 5 bölümü **"% Uyum Oranı"** ile hesaplar. | Görsel "Match Cards" (Eşleşme Kartları). |
+| **03. AI Aktivasyonu** | Kullanıcı "Bana Rehberlik Et" butonuna basarak diyalog başlatır. | Gemini AI ile empatik sohbetin başlaması. |
+| **04. Vizyon Sunumu** | Kartların altında kariyer fırsatları ve gelecek projeksiyonu listelenir. | Somut kariyer yol haritası. |
+
+---
+
+### [3] Temel Özellik Seti (MVP Features)
+
+* **[Form Paneli]:** Sayısal (Net/OBP) ve kategorik (Sınıf/Alan) girişlerin yanı sıra, "Mood" (Ruh Hali) seçimini içeren akıllı giriş arayüzü.
+* **[Chat UI - Sol Panel]:** WhatsApp dinamiklerine sahip, mesajların akıcı şekilde kaydığı, "Light Mode" odaklı ferah sohbet ekranı.
+* **[Discovery UI - Sağ Panel]:** Önerilen bölümlerin düz metin yerine, modern tasarım elementleri (Shadows, Border-radius) içeren şık kartlar şeklinde sunumu.
+
+---
+
+### [4] Teknik Mimari ve Strateji (Technical Stack)
+
+> **"Maksimum Güven, Minimum Halüsinasyon"** prensibiyle kurgulanmıştır.
+
+* **Frontend:** Modern HTML5, CSS3 (Flex/Grid) ve Vanilla JavaScript.
+* **Zeka Katmanı:** Google Gemini 1.5 Flash API.
+* **Hibrit Veri Yönetimi:** * **Data Integrity:** Halüsinasyonu ve API maliyetini önlemek için karmaşık bir DB yerine, uygulama içinde yapılandırılmış **master_data.json** (21.000+ satır) kullanılır.
+    * **Filtreleme:** Arama ve eleme işlemleri JavaScript motoru ile yerel (local) olarak yapılır. 
+    * **RAG (Retrieval-Augmented Generation):** API sadece seçilen sonuçları yorumlamak ve kullanıcıyla "Rehber Öğretmen" personasıyla konuşmak için kullanılır.
+
+---
+
+### [5] Başarı Kriterleri ve Etik Sınırlar (Guardrails)
+
+* **Kesinlik Sınırı:** Yapay zeka asla "Kesin kazanırsın/kazanamazsın" gibi spekülatif yargılarda bulunmaz; olasılıklar ve stratejiler üzerinden konuşur.
+* **Veri Sadakati:** AI, sadece sistemin kendisine gönderdiği gerçek veri seti üzerinden yorum yapar. Veri setinde olmayan bir üniversiteyi veya bölümü "uydurması" teknik olarak engellenmiştir.
+* **Persona:** Yanıtlar her zaman "20 yıllık deneyimli bir rehber öğretmen" şefkatiyle ve çözüm odaklı bir tonlamayla verilir.
+
+---
+
+### [6] Gelecek Yol Haritası (Scalability)
+* **V1.1:** Vector Database entegrasyonu ile anlık veri sorgulama hızı optimizasyonu.
+* **V1.2:** Kullanıcıların tercih listelerini PDF olarak indirebilme özelliği.
+
+---
+
+**Bu belge, projenin sadece bir "sohbet botu" değil, veri odaklı bir "karar destek mekanizması" olduğunu ispatlar.**
