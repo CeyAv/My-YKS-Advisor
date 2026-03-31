@@ -1,0 +1,25 @@
+🎓 YKS Advisor: Puanların Ötesinde Bir Gelecek Tasarımı
+
+📌 Vizyon ve Problem
+
+YKS süreci, milyonlarca genç için sadece akademik bir sınav değil; belirsizlik ve yoğun baskı altında geçen kritik bir eşiktir. 
+Mevcut sistem, öğrenciyi yalnızca net sayılarına indirgerken; tutkuları, karakteri ve ruh halini görmezden gelmektedir. 
+Bu yaklaşım, yanlış tercihlerin ve mutsuz bir neslin temel sebebidir.
+
+YKS Advisor, bu "puan odaklı" döngüyü kırmak için empati yeteneğine sahip bir yapay zeka asistanı olarak doğdu. 
+Öğrenciyi bir sayıdan ibaret görmez; netlerini, karakterini ve anlık psikolojik durumunu bir bütün olarak analiz eder.
+
+🧠 Projenin Kalbi: 
+
+Çok Boyutlu AnalizYKS Advisor, 21.000’den fazla satırlık devasa bir üniversite veri setini Gemini 1.5 Pro’nun analiz gücüyle birleştiriyor. 
+Geleneksel tercih robotlarının aksine, 
+şu 3 ana eksende çalışır:
+1. Akademik Eşleşme: Netler ve puanlarla gerçek üniversite verilerini kıyaslar.
+2. Psikolojik Rehberlik: Sınav kaygısı ve motivasyon üzerine bir rehber öğretmen şefkatiyle yaklaşır.
+3. Sektörel Projeksiyon: Mezuniyet sonrası iş olanakları ve gelecekteki talep tahminlerini sunar.
+
+[!IMPORTANT] YKS Advisor, bir tercih listesinden fazlasını; öğrencinin potansiyelini en doğru şekilde gerçekleştirebileceği bir hayat vizyonu sunar.
+
+🛠️ Teknoloji Yığını (AI-Native Stack)
+
+Bu proje, modern "Vibe Coding" metodolojisi ve çoklu yapay zeka ajanlarının iş birliğiyle geliştirilmiştir
