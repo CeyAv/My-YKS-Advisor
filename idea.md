@@ -22,9 +22,8 @@ Alan Bazlı Akıllı Kurallar: SAY öğrencisine Edebiyat, EA öğrencisine Fen 
 Duygusal Zeka: Öğrencinin "motivasyonum düşük" veya "maaş kaygım var" gibi insani çekincelerini analiz ederek çözüm üretir.
 
 ## Rakip Analizi: Neden Farklıyım?
-Rakipler (YÖK Atlas vb.): Excel tablosu mantığıyla çalışan, ruhsuz ve statik tercih robotlarıdır.
 
-YKS Advisor: Sohbet edilebilen, öğrenciyi karakteri ve vizyonuyla değerlendiren bir danışmandır. "Puanın buraya yetiyor" demek yerine; "Senin yeteneklerine ve sosyal yapına göre en mutlu olacağın kampüs kültürü burada" diyerek insani bir dokunuş sunar.
+YKS Advisor, rakiplerden farklı olarak netleri hobiler, psikolojik durum ve şehir tercihiyle birleştirerek "hayat vizyonu" odaklı öneriler veriyor; 21.000+ veriyle empati temelli tavsiyeler sunuyor. Diğerleri ağırlıklı puan tabanlı ve hazırlık/analiz odaklıyken (örneğin Nik'in AI'si eksik konu tespiti yapıyor), YKS Advisor empatiyi 20 yıllık rehberlik şefkatiyle harmanlayarak mutsuzluk riskini minimize ediyor. Bu bütüncül yaklaşım, rakip araçların eksik bıraktığı tutkuları merkeze alıyor
 
 ## Başarı Kriterleri ve Teknik Başarılar
 Veri Gücü: 2025 YKS verilerini içeren 21.602 satırlık devasa veri seti üzerinde çalışan hızlı filtreleme algoritması.
