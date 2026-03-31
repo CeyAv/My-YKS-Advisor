@@ -1,6 +1,6 @@
-🎓 YKS Advisor: Puanların Ötesinde Bir Gelecek Tasarımı
+#🎓 YKS Advisor: Puanların Ötesinde Bir Gelecek Tasarımı
 
-📌 Vizyon ve Problem
+##📌 Vizyon ve Problem
 
 YKS süreci, milyonlarca genç için sadece akademik bir sınav değil; belirsizlik ve yoğun baskı altında geçen kritik bir eşiktir. 
 Mevcut sistem, öğrenciyi yalnızca net sayılarına indirgerken; tutkuları, karakteri ve ruh halini görmezden gelmektedir. 
@@ -9,7 +9,7 @@ Bu yaklaşım, yanlış tercihlerin ve mutsuz bir neslin temel sebebidir.
 YKS Advisor, bu "puan odaklı" döngüyü kırmak için empati yeteneğine sahip bir yapay zeka asistanı olarak doğdu. 
 Öğrenciyi bir sayıdan ibaret görmez; netlerini, karakterini ve anlık psikolojik durumunu bir bütün olarak analiz eder.
 
-🧠 Projenin Kalbi: 
+## Projenin Kalbi: 
 
 Çok Boyutlu AnalizYKS Advisor, 21.000’den fazla satırlık devasa bir üniversite veri setini Gemini 1.5 Pro’nun analiz gücüyle birleştiriyor. 
 Geleneksel tercih robotlarının aksine, 
@@ -20,6 +20,29 @@ Geleneksel tercih robotlarının aksine,
 
 [!IMPORTANT] YKS Advisor, bir tercih listesinden fazlasını; öğrencinin potansiyelini en doğru şekilde gerçekleştirebileceği bir hayat vizyonu sunar.
 
-🛠️ Teknoloji Yığını (AI-Native Stack)
+##🛠️ Teknoloji Yığını (AI-Native Stack)
 
-Bu proje, modern "Vibe Coding" metodolojisi ve çoklu yapay zeka ajanlarının iş birliğiyle geliştirilmiştir
+Bu proje, modern "Vibe Coding" metodolojisi ve çoklu yapay zeka ajanlarının iş birliğiyle geliştirilmiştir.
+
+🧠 Core AI | Gemini 1.5 Pro: Rehberlik mantığının kurgulanması, empatik yanıt üretimi ve 21.000 satırlık verinin anlık analizi.
+
+💻 IDE | Cursor & VS Code AI: Uygulama mimarisinin kurulması ve yapay zeka destekli hızlı prototipleme süreci.
+
+📊 Data Engineering | Julius AI & Perplexity: 21.000 satırlık ham üniversite verisinin temizlenmesi, normalize edilmesi ve anlamlı setlere dönüştürülmesi.
+
+📚 Knowledge Base | NotebookLM: Resmi üniversite tercih kılavuzları ve mevzuat bilgilerinin sentezlenerek projeye "akıllı kaynak" sağlanması.
+
+🚀 Deployment | Netlify AI: Projenin bulut altyapısına taşınması, CI/CD süreçleri ve canlıya alınması.
+
+##⚙️ Teknik Zorluklar ve Çözümler
+
+Büyük Veri İşleme: 21.000 satırlık verinin anlık taranması sırasında oluşan gecikmeler, Gemini'nin geniş bağlam penceresi (context window) optimize edilerek ve mantıksal katmanlara ayrılarak çözüldü.
+
+Persona Kurgusu: Yapay zekanın sadece "bilgi veren" değil, "eşlik eden" bir rehber öğretmen karakterine bürünmesi için özel Prompt Engineering teknikleri uygulandı.
+
+##📸 Demo & Kullanım
+Hadi Başlayalım: Form üzerinden netlerinizi, hobilerinizi ve ruh halinizi girin.
+
+Analiz: Sistem arka planda 30-60 saniyelik derin bir tarama yapar.
+
+Sonuç: 7 temel başlıkta (Kampüs, Akademik, Psikolojik, Stratejik vb.) kişiselleştirilmiş raporunuzu alın.
