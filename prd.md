@@ -48,8 +48,7 @@ Bu belge, YKS hazırlık sürecindeki öğrencilere; akademik veriler (OBP, Net)
 ---
 
 ### [6] Gelecek Yol Haritası (Scalability)
-* **V1.1:** Vector Database entegrasyonu ile anlık veri sorgulama hızı optimizasyonu.
-* **V1.2:** Kullanıcıların tercih listelerini PDF olarak indirebilme özelliği.
+* **V1:** Kullanıcıların tercih listelerini PDF olarak indirebilme özelliği.
 
 ---
 
